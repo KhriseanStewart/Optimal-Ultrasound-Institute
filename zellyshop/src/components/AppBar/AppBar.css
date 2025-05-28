@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 95vw;
+}
+.nav-items li{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.nav-items li a{
+    color: black;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.hamburger{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+}
+.burger{
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: black;
+    transform-origin: 1px;
+    transition: all 0.3 linear;
+}
