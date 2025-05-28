@@ -16,9 +16,21 @@ function Services () {
             <div className="colored-container">
             {/* Top purpleish part with border-radius */}
                 <div className="top-section">
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                    <div className="services-container">
+                        <img src="../../../../assets/image.png" alt="" srcset="" />
+                        <h4>Small Parts UltraSound</h4>
+                        <Custom_btn text='Book now'/>
+                    </div>
+                    <div className="services-container">
+                        <img src="../../../../assets/image.png" alt="" srcset="" />
+                        <h4>Thyroid Ultrasound</h4>
+                        <Custom_btn text='Book now'/>
+                    </div>
+                    <div className="services-container">
+                        <img src="../../../../assets/image.png" alt="" srcset="" />
+                        <h4>Scrotal Ultrasound</h4>
+                        <Custom_btn text='Book now'/>
+                    </div>
                     {/* You can add content here, like a title or icon */}
                 </div>
             

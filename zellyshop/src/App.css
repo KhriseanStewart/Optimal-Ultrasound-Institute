@@ -3,6 +3,7 @@ body{
   overflow-x: hidden;
   display: flex;
   justify-content: center;
+  background-color: rgb(245, 245, 245);
 }
 *{
   margin: 0;
