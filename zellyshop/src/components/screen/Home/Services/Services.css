@@ -1,0 +1,32 @@
+.services{
+    display: flex;
+    padding: 40px 0px 40px 60px;
+}
+.services-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 36vw;
+}
+
+div h2{
+    font-size: 48px;
+    line-height: 60px;
+}
+div h4{
+    font-weight: bolder;
+}
+div p{
+    font-size: 18px;
+}
+.top-section{
+    z-index: 2;
+    width: 58vw;
+    height: 20vh;
+    border-radius: 10px;
+    background-color: rgb(178, 152, 220);
+}
+.colored-container{
+    z-index: 3;
+    background-color: rgba(128, 128, 128, 0.521);
+}

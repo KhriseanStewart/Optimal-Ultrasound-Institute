@@ -1,19 +1,17 @@
 
 import AppBar from './components/AppBar/AppBar.jsx'
 import Hero from './components/screen/Home/HeroSection/Hero.jsx'
-import Services from './components/screen/Home/Services/Services.jsx'
 import './components/AppBar/AppBar.css'
 import './App.css'
 
-function App() {
+function Homepage() {
 
   return (
     <div className='component-container'>
       <AppBar/>
       <Hero/>
-      <Services/>
      </div>
   )
 }
 
-export default App
+export default Homepage
